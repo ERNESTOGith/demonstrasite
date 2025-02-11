@@ -49,8 +49,7 @@ The rest of this chapter will look at these two questions. We’ll explain what 
 
 We’ll start our exploration by visualizing the distribution of weights (`carat`) of \~54,000 diamonds from the `diamonds` dataset. Since `carat` is a numerical variable, we can use a histogram:
 
-```{r} ggplot(diamonds, aes(x = carat)) +   geom_histogram(binwidth = 0.5)}
-```
+`{r} ggplot(diamonds, aes(x = carat)) +   geom_histogram(binwidth = 0.5)}`
 
 Now that you can visualize variation, what should you look for in your plots? And what type of follow-up questions should you ask? We’ve put together a list below of the most useful types of information that you will find in your graphs, along with some follow-up questions for each type of information. The key to asking good follow-up questions will be to rely on your curiosity (What do you want to learn more about?) as well as your skepticism (How could this be misleading?).
 
